@@ -77,6 +77,12 @@ ol {
   width: 100%;
 }
 
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .content__details {
   height: 100%;
   width: 100%;
@@ -104,5 +110,10 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  
+  object-fit: cover;
+  object-position: center;
+}
+
+.content__video-card-description-container {
+  flex-grow: inherit;
 }
