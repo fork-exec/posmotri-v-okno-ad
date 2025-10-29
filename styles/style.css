@@ -1,3 +1,8 @@
+:root {
+  --font-family: "Fira Sans Condensed", sans-serif;
+  --second-family: "Oswald", sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -83,6 +88,25 @@ ol {
   justify-content: space-between;
 }
 
+.search-form__fieldset-title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.content__accent {
+  color: #545050;
+}
+
 .content__details {
   height: 100%;
   width: 100%;
@@ -103,10 +127,32 @@ ol {
   gap: 30px;
 }
 
+.content__card-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .content__video-card {
   display: flex;
   flex-direction: row;
   align-items: start;
+}
+
+.content__video-card-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.content__video-card-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 90%;
+  color: #fff;
 }
 
 .content__video-card-thumbnail {
